@@ -1,0 +1,11 @@
+div{
+    display: flex;
+    flex-direction: row;
+    background-color: #acacdd;
+    color: white;
+    border-radius: 10px;
+    list-style: none;
+    width: 20%;
+    justify-content: center;
+    
+}

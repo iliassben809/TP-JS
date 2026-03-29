@@ -1,0 +1,36 @@
+
+div input{
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+}
+button{
+    background-color: #6e1414;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+
+
+.container{
+    display: block;
+    background-color: #764038;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 50px 700px;  
+    align-content: center;
+    align-items: center;
+}
+div input{
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+}
+button{
+    background-color: #6e1414;
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 100px;
+} 

@@ -1,0 +1,29 @@
+
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh !important;
+}
+.left{
+    width: 49%;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width: 36%;
+}
+.right button{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#success, #error{
+    display: none;
+}
+
+
+
+

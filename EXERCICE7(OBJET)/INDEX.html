@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TP15</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="TP15.css">
+</head>
+
+<body class="d-flex justify-content-center align-items-center vh-100">
+<div class="w-75">
+    <div class="mb-3">
+        <input id="nom" class="form-control mb-2" type="text" placeholder="Nom du stagiaire">
+        <input id="cc1" class="form-control mb-2" type="number" placeholder="CC1">
+        <input id="cc2" class="form-control mb-2" type="number" placeholder="CC2">
+        <input id="cc3" class="form-control mb-2" type="number" placeholder="CC3">
+        <input id="efm" class="form-control mb-2" type="number" placeholder="EFM">
+    </div>
+    <button class="btn btn-success w-100" onclick="Ajouter()">Ajouter / Modifier</button>
+    <table id="tableStagiaire" class="table table-bordered mt-4 text-center">
+        <tr>
+            <th>Nom</th>
+            <th>CC1</th>
+            <th>CC2</th>
+            <th>CC3</th>
+            <th>EFM</th>
+            <th>Moyenne</th>
+            <th>Validation</th>
+            <th>Action</th>
+        </tr>
+    </table>
+    <div class="mt-3 d-flex justify-content-between">
+        <p>Nbr de stagiaire: <span>0</span></p>
+        <p>Moyenne de la classe: <span>0</span></p>
+        <p>Nbr valide: <span>0</span></p>
+        <p>Nbr non valide: <span>0</span></p>
+        <p>Pourcentage: <span>0%</span></p>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>

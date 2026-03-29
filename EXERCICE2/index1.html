@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container d-flex align-items-center">
+        <div class="left">
+            <img src="img_login.png">
+        </div>
+        <div class="right">
+            <label for="InputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Votre E-mail">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          
+                <label for="InputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="InputPassword1" placeholder="********">
+            
+            <button onclick="connexion()" type="submit" class="btn btn-primary">Submit</button>
+            <div class="alert alert-success" role="alert" id="success">
+                A simple success alert—check it out!
+            </div>
+            <div class="alert alert-danger" role="alert" id="error">
+                A simple danger alert—check it out!
+            </div>
+        </div>
+    </div>
+    <script src="index1.js"></script>
+</body>
+
+</html>
